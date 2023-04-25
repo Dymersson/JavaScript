@@ -1,0 +1,23 @@
+<DOCTYPE html>
+    <html>
+    <body>
+        <head>
+            <script>
+                 
+                 function mediaElementoVetor(Vetor) {
+                    var N = Vetor.length; // Calculando o tamanho do vetor
+                    var X = Vetor[0];
+                    
+                    for(var i = 0; i < N; i++ ) {
+                        if (Vetor[i] > X) x = Vetor[i];
+
+                    }
+                    return (x);
+                 }
+                 var T = [2, 3, 4, -1, 7];
+                 var Maior = mediaElementoVetor(T);
+                 console.log("Maior elemento: ", Maior);
+
+            </script>
+        </head>
+    </body>
